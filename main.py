@@ -1,3 +1,24 @@
+#operador logico "and":
+def SecondOperand():
+    print("Avaliando o segundo operador-")
+    return True
+if __name__ == '__main__':
+    a = False and SecondOperand()
+    print(a)
+    b = True and SecondOperand()
+    print(b)
+
+#op. selec. "switch e if":
+    nome = 'Jean'
+
+    if nome == 'Carlos':
+        print('O nome é Carlos')
+    elif nome == 'Jean':
+        print('O nome é Jean')
+    else:
+        print('Não é nenhum nome')
+
+#input:
 if __name__ == '__main__':
     numero = input("Digite um numero")
     print(f'O numero digitado foi {numero}')
